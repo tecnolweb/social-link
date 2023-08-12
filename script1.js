@@ -6,7 +6,7 @@ const imgs = document.getElementById('imgs')
   
  let idx = 0 
   
- let interval = setInterval(run, 2000) 
+ let interval = setInterval(run, 5000) 
   
  function run() { 
      idx++ 
@@ -25,7 +25,7 @@ const imgs = document.getElementById('imgs')
   
  function resetInterval() { 
      clearInterval(interval) 
-     interval = setInterval(run, 2000) 
+     interval = setInterval(run, 5000) 
  } 
   
  rightBtn.addEventListener('click', () => { 
